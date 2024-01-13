@@ -13,7 +13,7 @@ Meta = np.dtype([('weights', np.int64),
                  ('factors', np.int64),
                  ('edges', np.int64)])
 
-Weight = np.dtype([("isFixed", np.bool),
+Weight = np.dtype([("isFixed", np.bool_),
                    ("initialValue", np.float64)])
 
 Variable = np.dtype([("isEvidence", np.int8),
